@@ -46,7 +46,7 @@ document.getElementById("updateForm").addEventListener("submit", async function(
         });
 
         // Kirim notifikasi ke Discord Webhook
-        const webhookURL = "DISCORD_WEBHOOK_URL_ANDA";
+        const webhookURL = "https://discord.com/api/webhooks/1353550479472332800/kNlmmnau2hkqwjiGSD7rdkUcGNZc6zAbrG2OQhy94rKZmfrjT7RRwp274yOa-PpVqrZG";
         fetch(webhookURL, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
